@@ -46,6 +46,11 @@ a:hover{
     color:orange;
 }
 
+#title{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
 main > img{
     width: 300px;
     float: right;
@@ -68,8 +73,10 @@ main{
 
 .home-quote{
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 80px;
+    margin-top: 300px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 footer{
@@ -225,4 +232,9 @@ p{
 #porfolio-img{
     width: 300px;
     height: 70%;
+}
+
+.console-log{
+    font-size: 12px;
+    margin-left: 30px;
 }
