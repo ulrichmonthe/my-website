@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-body">
+    <nav>
+        <div id="site-logo"> 
+            <h1>Ulrich Monthe</h1>
+        </div>
+        <div id="top-bar">
+                    <a href="index.html">Home</a>
+                    <a href="about.html"> About</a>
+                    <a href="portfolio.html"> Portfolio</a>
+                    <a href="contact.html">Contact</a>
+        </div>
+</nav>
+    <div class="form-container">
+        <form action="" class="contact-left">
+            <div class="contact-left-title">
+                <h2> Contact me</h2>
+                <hr>
+            </div>
+            <input type="text" name="" placeholder="Name" class="contact-input">
+            <input type="email" name="Email" placeholder="Enter your email" class="contact-input">
+            <textarea name="Message" placeholder=" leave a message here!" class="contact-input"></textarea>
+            <button type="submit" id="submit-1"> <a href="success.html"> Success </a> </button>
+        </form>
+        <div class="contact-right">
+            <img src="" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="left-footer">
+         <div id="div1"><a href="index.html">Home</a></div> 
+           <div id="div2"><a href="about.html">About</a> </div> 
+            <div id="div3"><a href="portfolio.html">Portfolio</a></div>
+        </div>
+      </footer>
+      <script>
+        const form = document.querySelector('#form')
+        const submitButton = document.querySelector('#submit')
+
+        form.addEventListener('submit', (e) => {
+        submitButton.disabled = true
+        e.preventDefault()
+         window.location.href = window.location.origin + '/success.html'
+})
+      </script>
+</body>
+</html>
