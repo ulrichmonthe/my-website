@@ -48,7 +48,7 @@ body {
 
 .hero-content {
     display: flex;
-    display flex-direction: row;
+    /* display flex-direction: row; */
     
 }
 
